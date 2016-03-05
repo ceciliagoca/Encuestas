@@ -70,7 +70,7 @@ if(cuesUs!=null)
         <form id="frmInicio" name="frmInicio ">
 	<fieldset>
 		<label for="name">Usuario</label>
-		<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" />
+		<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all"  />
 		<label for="password">Contraseña</label>
 		<input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all" />
                 <a href="m1.pdf" download>Ayuda</a>
@@ -104,9 +104,9 @@ if(cuesUs!=null)
                     <input type="text" name="brigada" id="brigada" class="text ui-widget-content ui-corner-all" />
                     <label for="cuenta">Correo electrónico</label>
                     <input type="text" name="emailAlumno" id="emailAlumno" class="text ui-widget-content ui-corner-all" />
-                    <label for="passw">Contraseña</label>
-                    <input type="password" name="passwAlumno" id="passwAlumno" value="" class="text ui-widget-content ui-corner-all" />
-                    <label for="passw1">Contraseña</label>
+                    <label for="passw">Contraseña (hasta doce caracteres)</label>
+                    <input type="password" name="passwAlumno" id="passwAlumno" value="" class="text ui-widget-content ui-corner-all"  maxlength="12" />
+                    <label for="passw1">Contraseña </label>
                     <input type="password" name="passwAlumno1" id="passwAlumno1" value="" class="text ui-widget-content ui-corner-all" />
                 </div>
                 
@@ -115,8 +115,8 @@ if(cuesUs!=null)
 		    <input type="text" name="profesor" id="profesor" class="text ui-widget-content ui-corner-all" />
                     <label for="cuenta">Correo electrónico</label>
 		    <input type="text" name="emailProfe" id="emailProfe" class="text ui-widget-content ui-corner-all" />
-                    <label for="passw">Contraseña</label>
-                    <input type="password" name="passwProfe" id="passwProfe" value="" class="text ui-widget-content ui-corner-all" />
+                    <label for="passw">Contraseña (hasta doce caracteres</label>
+                    <input type="password" name="passwProfe" id="passwProfe" value="" class="text ui-widget-content ui-corner-all" maxlength="12" />
                     <label for="passw1">Contraseña</label>
                     <input type="password" name="passwProfe" id="passwProfe1" value="" class="text ui-widget-content ui-corner-all" />
                 </div>
