@@ -13,7 +13,7 @@
        <script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js"></script>
    	<script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js"></script>
         <script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js"></script>
-         <script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js"></script>
 	<script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js"></script>
 	<script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.button.js"></script>
 	<script src="js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.draggable.js"></script>

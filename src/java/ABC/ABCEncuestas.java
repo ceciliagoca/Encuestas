@@ -172,6 +172,43 @@ public class ABCEncuestas {
      
       }    
      
+      public String listarEncuestas(String profesor, String semestre) throws SQLException{  // by grupo
+        
+         StringBuffer salida = new StringBuffer();
+          Conexion c = new Conexion();
+          Connection  con = c.getConexion();
+          
+         
+            PreparedStatement pstmt;
+            pstmt = con.prepareStatement("select * from l_gruposxsemestre(?) where profesor = ?");
+            pstmt.setString(1, semestre);
+              pstmt.setString(2, profesor);
+            ResultSet rs = pstmt.executeQuery();
+            
+                    salida.append("<UL>");
+                while(rs.next()){
+              
+                    salida.append(" <li> <span id='bt_"+rs.getInt(1)+"' ><img src='imgs/up.png' style='cursor:pointer' onclick='l_alumnosDe(" + rs.getInt(1) +")'></span> Grupo: " + rs.getString(2) + "(" + rs.getString(3) + " " +  rs.getString(6) + " " +  rs.getString(4) + " " +  rs.getString(5) + ") ");
+                    salida.append("<div id='g_" + rs.getInt(1) + "'>");
+                    
+                        
+                    
+                    
+                    salida.append("</div>");
+                    salida.append("</li>");
+                }
+                    salida.append("</UL>");
+                rs.close();
+                pstmt.close();
+                    
+            
+
+      
+        return salida.toString();
+     
+      }    
+     
+     
     
   public String listarFaltantes() throws SQLException{  // by grupo
         

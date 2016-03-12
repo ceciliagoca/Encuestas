@@ -16,8 +16,8 @@
    
     
            <h1>Consulta de encuestas</h1>
-           <%@include file="menuVistas.jsp"%>.
-           <div id="listCE"> 
+           <!--%@include file="menuVistas.jsp"%-->.
+         <div id="listCE"> 
         <%=practica.listarEncuestas(cuesUs.getUser(), semestre.getCurrent()) /*por grupo*/ %>
       
          </div>
