@@ -18,7 +18,7 @@ public class Conexion {
     public Connection getConexion() {
         Connection  con;
         String driver = "org.postgresql.Driver";
-   String connectString = "jdbc:postgresql://localhost:5432/encuestas";
+   String connectString = "jdbc:postgresql://localhost:5432/encuesta";
  
         try{
             Class.forName(driver);
