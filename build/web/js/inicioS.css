@@ -1,0 +1,53 @@
+/* 
+    Document   : inicioS
+    Created on : 23/05/2014, 08:02:29 PM
+    Author     : Cecilia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.inicioS{
+    position: relative;
+    width: 75%;
+    display: none;
+        
+  
+}
+
+.inicioS .tituli{
+   color: white;
+   text-shadow: black 0.1em 0.1em 0.2em;
+   font-size: xx-large;
+    background: rgba(1, 123, 255, 0.1);
+    margin-bottom: 17px;
+    padding-bottom: 8px;
+}
+
+.inicioS .fin{
+   color: white;
+   text-shadow: black 0.4em 0.4em 0.6em;
+   font-size: xx-large;
+    background: rgba(1, 123, 255, 0.1);
+    text-align: right;
+      margin-top: 17px;
+    padding-top: 8px;
+     
+}
+.inicioS .fin .sig:hover{
+   cursor: pointer;
+     
+}
+
+#aux_inicio{
+     
+     background-color: white;
+    border: 3px solid #334885;
+    border-radius: 1%;
+    box-shadow: 10px 10px 5px #888888;
+    height: 700px;
+    left: 100px;
+    position: relative;
+    top: -167px;
+    width: 850px;
+ 
+}
